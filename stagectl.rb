@@ -3,7 +3,7 @@
 
 class Stagectl < Formula
     desc "Stagectl is the CLI tool to manage your Auto Staging setup"
-    url "https://github.com/janritter/terrastate/releases/download/1.2.0/darwin_amd64_terrastate"
+    url "https://github.com/auto-staging/stagectl/releases/download/1.2.0/darwin_amd64_stagectl"
     sha256 "0a72b10b19deb74d2a09e18f85b1b2bde9258331ded07aa7578a2b789bd07b08"
   
     def install
