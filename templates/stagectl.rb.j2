@@ -1,0 +1,17 @@
+# Documentation: https://docs.brew.sh/Formula-Cookbook
+#                https://www.rubydoc.info/github/Homebrew/brew/master/Formula
+
+class Terrastate < Formula
+    desc "Stagectl is the CLI tool to manage your Auto Staging setup"
+    url "https://github.com/janritter/terrastate/releases/download/{{ version }}/darwin_amd64_terrastate"
+    sha256 "{{ sha256 }}"
+  
+    def install
+      bin.install "darwin_amd64_stagectl"
+      mv bin/"darwin_amd64_stagectl", bin/"stagectl"
+    end
+  
+    test do
+      system "false"
+    end
+  end

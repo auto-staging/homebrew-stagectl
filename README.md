@@ -1,2 +1,2 @@
-# homebrew-stagectl
-Homebrew formula for stagectl
+# Homebrew stagectl
+> Homebrew formula for stagectl
