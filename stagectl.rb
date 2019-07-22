@@ -4,7 +4,7 @@
 class Stagectl < Formula
     desc "Stagectl is the CLI tool to manage your Auto Staging setup"
     url "https://github.com/auto-staging/stagectl/releases/download/1.2.0/darwin_amd64_stagectl"
-    sha256 "63f3a9851577da41a8c81c98056cf665e8eeef9525d7f8a53ae7802f89146a2b"
+    sha256 "b7363fee16cd304d905c4d9296782b2f0309891590045f7720aa4cfc012213eb"
   
     def install
       bin.install "darwin_amd64_stagectl"
